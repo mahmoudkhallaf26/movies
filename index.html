@@ -1,0 +1,84 @@
+<html>
+<head> 
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"  />
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="css/index_style.css" rel="stylesheet">
+    <link href="css/all.min.css" rel="stylesheet">
+</head>
+<body > 
+
+    <div id="Nowplaying">
+        <div class="nav position-fixed">
+           
+            <div class=" nav_links bg-dark  " >
+                
+                <a class="text-decoration-none text-white d-block p-4 Nowplaying " data-wow-delay=".6s" href="index.html" id="Nowplaying" >Now playing</a>
+                          <a class="text-decoration-none text-white d-block p-4 Popular  "  data-wow-delay=".8s"  href="#Popular" onclick="Popular()" id="popular" >popular</a>
+                          <a class="text-decoration-none text-white d-block p-4 TopRated " data-wow-delay="1s" href="#TopRated"  id="TopRated" >Top Rated</a>
+                          <a class="text-decoration-none text-white d-block p-4 Trending  " data-wow-delay="1.2s" href="#Trending" id="Trending" >Trending</a>
+                          <a class="text-decoration-none text-white d-block p-4 Upcoming  " data-wow-delay="1.4s" href="#Upcoming" id="Upcoming" >Up coming</a>
+                          <a class="text-decoration-none text-white d-block p-4 Contact  " data-wow-delay="1.6s" href="#Contact1" id="Contact" >Contact Us</a>
+                     
+           </div>
+            <span class="bg-white">
+                <img src="images/logo.png" class="img-fluid w-25 ms-4 pt-5 pb-5"><br>
+                <div class="pt-5 pb-5  "><i class="fas fa-bars fa-2x menu1 pt-5 pb-5" id="menu1"></i></div>
+               <div class="pt-5"> <i class="fas fa-globe fa-2x stiker1 pt-5 text-white "></i></div>
+                <i class="fas fa-share-alt fa-2x stiker2 pt-5 pb-5"></i>
+            </span>
+        </div>
+
+
+       
+ 
+      
+   <div class="container ">
+       <div class="row">
+        <div class="text-center">
+           
+            <input type="search" onkeyup="search(this.value)" name="search" class="search w-25   m-5 " id="searchId" placeholder="search..">
+        </div>
+        <div class="works d-flex flex-wrap" id="movies">
+       </div>
+
+   </div>
+   <h2  class="text-white">ContacUs...</h2>
+   <div class="form-control form1  d-flex  flex-wrap p-5 Contact"  id="Contact1">
+       
+       <div class=" col-md-6 " >
+        <small  id="text"></small><br>
+       <input type="text"  name="text" class="search   " onkeyup="valid2()"  id="name" placeholder="name.."> </div>   <!--  ^[A-Z][a-z]+$ -->
+       <div class="col-md-6 email1 ">
+        <small  id="text1"></small><br>
+      <input type="email"  name="email" class="search   " onkeyup="valid()" id="email1" placeholder="email.."></div>    <!-- ^[A-z][a-z]+[0-9]+[@][gmail][.com] -->
+       <div class=" col-md-6 ">
+        <small  id="text2"></small><br>
+        <input type="number"  name="number" class="search " onkeyup="valid1()" id="phone1"   placeholder="phone number.."> 
+       </div>
+       <div class="col-md-6  ">
+        <small  id="text3"></small><br>
+       <input type="number"  name="age" class="search  " id="age" onkeyup="valid3()" placeholder="age.."></div>
+       <div class="col-md-6  ">
+        <small  id="text4"></small><br>
+       <input type="password"  name="password" class="search   " id="password" onkeyup="valid4()" placeholder="password.."></div>
+       <div class="col-md-6  ">
+        <small  id="text5"></small><br>
+       <input type="password"  name="repassword" class="search   " id="repassword" onkeyup="valid5()"  placeholder="re password.."></div>
+       <button type="button" id="submit" class="btn btn-outline-danger mt-5 ">submit</button>
+   </div>
+   
+   
+    </div>
+    </div>
+    <script src="wow.min.js"></script>
+<script src="jquery-3.6.0.js"></script>
+<script src="javascript.js" ></script>
+ 
+ <script src="bootstrap.bundle.min.js" rel="stylesheet" ></script>
+</body>
+</html>
+
+

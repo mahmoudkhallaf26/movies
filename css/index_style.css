@@ -1,0 +1,92 @@
+.hover1
+{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgba(190, 201, 198, 0.9);
+    
+    transition: .5s;
+    border-radius: 10px;
+    padding-top: 40%;
+      overflow: hidden;
+}
+.image
+{
+    overflow: hidden;
+  
+}
+.form1
+{
+    background-color: black;
+    border: hidden;
+}
+.nav
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999999;
+    
+    
+
+}
+
+.nav_links
+{
+    height: 100%;
+    width: 200;
+    height: 100vh;
+    
+}
+
+
+
+.menu1
+{
+  
+    
+    padding-left: 30%;
+    cursor: pointer;
+ 
+}
+
+
+.stiker1 
+{
+  
+    padding-left: 30%;
+    cursor: pointer;
+
+}
+
+.stiker2
+{
+   
+    padding-left: 30%;
+    cursor: pointer;
+}
+.image img
+{
+  
+    border-radius: 10px;
+}
+
+.image:hover .hover1
+{
+  top: 0;
+}
+
+body
+{
+    background-color: black;
+}
+
+.search
+{
+    border-top: hidden ;
+    border-left:hidden ;
+    border-right:hidden ;
+    background-color: black;
+    color: white;
+    width: 50%;
+}
